@@ -119,7 +119,6 @@ nav {
   border-radius: 6px;
   cursor: pointer;
   font-weight: 500;
-  transition: 0.3s ease;
 }
 
 /* Services Section */
@@ -203,14 +202,14 @@ nav {
 }
 
 .happy-green {
-    background-color: #08d3bb;
-    border-radius: 100%;
-    padding: 15px 17px;
+  background-color: #08d3bb;
+  border-radius: 100%;
+  padding: 15px 17px;
 }
 
 .info-image {
-    display: flex;
-    justify-self: start;
+  display: flex;
+  justify-self: start;
 }
 
 .info-content {
@@ -234,7 +233,6 @@ nav {
   margin: 20px 0 30px;
 }
 
-
 .info-section2 {
   display: flex;
   justify-content: space-between;
@@ -243,13 +241,107 @@ nav {
 }
 
 .happy-blue {
-    background-color: #1090cb;
-    border-radius: 100%;
-    padding: 15px 17px;
+  background-color: #1090cb;
+  border-radius: 100%;
+  padding: 15px 17px;
 }
 
 .happy-purple {
-    background-color: #9208d3;
-    border-radius: 100%;
-    padding: 15px 17px;
+  background-color: #9208d3;
+  border-radius: 100%;
+  padding: 15px 17px;
+}
+
+/* Dual Cards Section */
+.dual-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+  gap: 40px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 38rem;
+  padding: 45px 35px;
+  border-radius: 20px;
+  gap: 30px;
+  line-height: 2.0;
+}
+
+.card-heading {
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+  width: 50%;
+}
+
+.card-description {
+  width: 80%;
+}
+
+.light-card {
+  background-color: #f4f4f4;
+}
+
+.blue-card {
+  background-color: var(--primary-skyblue-color);
+  color: white;
+}
+
+.card-btn-light {
+  background-color: var(--primary-skyblue-color);
+  border: none;
+  padding: 15px 50px;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.card-btn-outline {
+  background: white;
+  color: var(--primary-skyblue-color);
+  border: 1px solid var(--primary-skyblue-color);
+  padding: 15px 50px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.card-btn-container {
+  margin-top: 5px;
+}
+
+
+
+/* Company Logos Section */
+
+.companies{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.companies-heading {
+  font-weight: bold;
+  font-size: large;
+}
+
+.logo-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.logo-row img {
+  height: 11rem;
+  object-fit: contain;
 }
