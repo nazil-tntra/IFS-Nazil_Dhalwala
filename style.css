@@ -122,9 +122,6 @@ nav {
   transition: 0.3s ease;
 }
 
-
-
-
 /* Services Section */
 
 .services {
@@ -135,49 +132,47 @@ nav {
   gap: 25px;
 }
 
-.service-card{
-    display: flex;
+.service-card {
+  display: flex;
 }
 
-.service-info{  
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 5px;
-    padding: 0px 15px;
+.service-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  padding: 0px 15px;
 }
 
-.service-heading{
-    font-weight: bold;
+.service-heading {
+  font-weight: bold;
 }
 
 .service-description {
-    color: #a4a4a4;
-    font-size: 15px;
+  color: #a4a4a4;
+  font-size: 15px;
 }
 
 .icon-container {
-    padding: 15px 20px;
-    border-radius: 14px;
+  padding: 15px 20px;
+  border-radius: 14px;
 }
 
 .web-app {
-    background-color: #efeaff;
+  background-color: #efeaff;
 }
 
 .seo {
-    background-color: #ecffda;
+  background-color: #ecffda;
 }
 
 .immersive {
-    background-color: #dae6ff;
+  background-color: #dae6ff;
 }
 
 .mobile-app {
-    background-color: #ffe5da;
+  background-color: #ffe5da;
 }
-
-
 
 /* Centered Heading */
 .intro-text {
@@ -197,4 +192,64 @@ nav {
   color: #666;
   word-spacing: 3px;
   line-height: 1.6;
+}
+
+/* Info Section */
+
+.info-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+}
+
+.happy-green {
+    background-color: #08d3bb;
+    border-radius: 100%;
+    padding: 15px 17px;
+}
+
+.info-image {
+    display: flex;
+    justify-self: start;
+}
+
+.info-content {
+  margin-top: 2rem;
+  max-width: 70%;
+}
+
+.info-content h3 {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.info-content .highlight {
+  color: var(--primary-skyblue-color);
+}
+
+.info-content p {
+  color: #555;
+  font-size: 15px;
+  line-height: 1.8;
+  margin: 20px 0 30px;
+}
+
+
+.info-section2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 150px;
+  padding: 100px;
+}
+
+.happy-blue {
+    background-color: #1090cb;
+    border-radius: 100%;
+    padding: 15px 17px;
+}
+
+.happy-purple {
+    background-color: #9208d3;
+    border-radius: 100%;
+    padding: 15px 17px;
 }
