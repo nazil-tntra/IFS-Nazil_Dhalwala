@@ -121,3 +121,58 @@ nav {
   font-weight: 500;
   transition: 0.3s ease;
 }
+
+
+
+
+/* Services Section */
+
+.services {
+  display: flex;
+  padding: 40px 80px;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.service-card{
+    display: flex;
+}
+
+.service-info{  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    padding: 0px 15px;
+}
+
+.service-heading{
+    font-weight: bold;
+}
+
+.service-description {
+    color: #a4a4a4;
+    font-size: 15px;
+}
+
+.icon-container {
+    padding: 15px 20px;
+    border-radius: 14px;
+}
+
+.web-app {
+    background-color: #efeaff;
+}
+
+.seo {
+    background-color: #ecffda;
+}
+
+.immersive {
+    background-color: #dae6ff;
+}
+
+.mobile-app {
+    background-color: #ffe5da;
+}
