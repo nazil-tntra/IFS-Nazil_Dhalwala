@@ -45,6 +45,10 @@ nav {
   gap: 70px;
 }
 
+.nav-links a:hover {
+  color: #0088cc;
+}
+
 .nav-links a {
   text-decoration: none;
   color: black;
@@ -63,6 +67,10 @@ nav {
   cursor: pointer;
   font-weight: 500;
   display: inline-block;
+}
+
+.btn-primary:hover {
+  background-color: #23b2f4;  
 }
 
 /* Hero Section */
@@ -111,6 +119,10 @@ nav {
   display: inline-block;
 }
 
+.hero-btn-primary:hover {
+  transform: scale(1.1);
+}
+
 .btn-outline {
   background: white;
   color: var(--primary-skyblue-color);
@@ -119,6 +131,10 @@ nav {
   border-radius: 6px;
   cursor: pointer;
   font-weight: 500;
+}
+
+.btn-outline:hover {
+  transform: scale(1.1);
 }
 
 /* Services Section */
@@ -304,6 +320,10 @@ nav {
   font-weight: 500;
 }
 
+.card-btn-light:hover {
+  transform: scale(1.1);
+}
+
 .card-btn-outline {
   background: white;
   color: var(--primary-skyblue-color);
@@ -312,6 +332,10 @@ nav {
   border-radius: 6px;
   cursor: pointer;
   font-weight: 500;
+}
+
+.card-btn-outline:hover {
+  transform: scale(1.1);
 }
 
 .card-btn-container {
@@ -342,6 +366,7 @@ nav {
 .logo-row img {
   height: 11rem;
   object-fit: contain;
+  cursor: pointer;
 }
 
 /* NewsLetter Section */
@@ -390,6 +415,10 @@ nav {
   border: none;
 }
 
+.subscribe-btn:hover {
+  background-color: var(--primary-skyblue-color);
+}
+
 /* Footer Section */
 
 .footer-content {
@@ -406,6 +435,10 @@ nav {
   font-size: x-large;
 }
 
+.footer-logo a:hover {
+  color: var(--primary-skyblue-color);
+}
+
 .footer-section-logo {
   display: flex;
   flex-direction: column;
@@ -419,6 +452,16 @@ nav {
   font-weight: bold;
   font-size: large;
   margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.footer-heading:hover {
+  color: var(--primary-skyblue-color);
+}
+
+.footer-contact:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .footer-section-about ul {
@@ -433,6 +476,9 @@ nav {
   text-decoration: none;
 }
 
+.footer-section-about a:hover {
+  text-decoration: underline;
+}
 
 .footer-section-contact {
   gap: 30px;
@@ -462,6 +508,11 @@ nav {
   box-shadow: 3px 5px 10px rgb(202, 202, 202);
   border-radius: 100%;
   padding: 7px 10px;
+}
+
+.social-icons a:hover {
+  background-color: var(--primary-skyblue-color);
+  color: white;
 }
 
 .footer-bottom {
